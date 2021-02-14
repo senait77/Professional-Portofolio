@@ -13,7 +13,7 @@ body {
 header {
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url("../images/pauline-bernfeld-38mcuQxrNhw-unsplash.jpg");
+    background-image: url("../images/pawel-czerwinski-jrOnDAJ7jBI-unsplash.jpg");
     background-size: cover;
     color: #5e0a49;
     font-style: italic;
@@ -296,7 +296,9 @@ h2 {
     margin-top: 30px;
     text-align: center;
     justify-content: flex-end;
-
+    margin-bottom: 30px;
+    border: 6px double rgb(129, 10, 50);
+    background-color: white;
     }
 .apply:hover {
     transform: scale(1.1);

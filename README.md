@@ -19,7 +19,10 @@
 
 
 ## General info
-This project is a simple Lorem ipsum dolor generator.
+
+* This project is a simple Lorem ipsum dolor generator.
+* The application form I used here is a random job application that I got from the internet.
+* comments for index.html and  style.css specifically applied. 
 
 ## Technologies
 On the top of the basic HTML and CSS, these web-page is created with:
