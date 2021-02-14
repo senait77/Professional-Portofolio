@@ -32,7 +32,7 @@ On the top of the basic HTML and CSS, these web-page is created with:
 * Lorem Ipsum Ament library version
 
 ## Project status
-These project is still in developing mood, as it will be updated to a more professional web-page with lots of detailed illustrations that I willbe learned throug out my course. 
+These project is still in developing mood, as it will be updated to a more professional web-page with lots of detailed illustrations that I willbe learned through-gitout my course. 
 
 ## Features
 * Get Quality images from Unsplash.com
