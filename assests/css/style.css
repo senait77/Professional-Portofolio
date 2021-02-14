@@ -249,11 +249,10 @@ h2 {
     flex-wrap: wrap;
     margin-top: 50px;
     margin-left: 500px;
-    transition: all 1s;
+
 }
-.work-experience:hover {
-    transform: scale(1.1);
-}
+
+
 .work-experience h2 {
     font-family: cursive;
     font-size: 2em;
@@ -265,6 +264,11 @@ h2 {
     font-size: 200%;
     font-style: italic;
     font-weight: bold;
+    transition: all 1s;
+
+}
+.work-experience h2:hover {
+    transform: scale(1.1);
 }
 .work-experience p{
     text-align: center;
@@ -274,8 +278,31 @@ h2 {
     font-weight: bold;
     font-size: 150%;
     color: rgb(46, 11, 51);
-    ima
+    transition: all 1s;
+    
 }
+.work-experience p:hover {
+    transform: scale(1.1);
+}
+.apply {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    color: rgb(46, 11, 51);
+    transition: all 1s;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: flex-end;
+
+    }
+.apply:hover {
+    transform: scale(1.1);
+}
+
+ 
 
 .Projects h2 {
     color: #0d1350;
@@ -367,6 +394,7 @@ h2 {
     .Projects {
         width: 100%;
         justify-content: center;
+        display: inline-block;
     }
     .Projects h2 {
         text-align: center;
