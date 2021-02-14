@@ -396,10 +396,20 @@ h2 {
     .Projects {
         width: 100%;
         justify-content: center;
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 500px;
     }
     .Projects h2 {
         text-align: center;
+        margin-left: 500px;
+        width: 300px;
     }
 }
 /* MEDIA QUERY ends here*/
