@@ -1,0 +1,379 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/pawel-czerwinski-jrOnDAJ7jBI-unsplash.jpg");
+    background-size: cover;
+
+}
+/* header and navigation starts here */
+header {
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("../images/pauline-bernfeld-38mcuQxrNhw-unsplash.jpg");
+    background-size: cover;
+    color: #5e0a49;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+      }
+
+
+header h1 {
+    display: inline-block;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1)
+}      
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: cursive;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+    text-shadow: none;
+}
+
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0,0.8);
+    color: #0d1350;
+    font-weight: bold;
+    font-style: oblique;
+}
+header nav ul li a:hover {
+    color: rgb(245, 131, 131);
+    background: rgb(102, 9, 94);
+    border-radius: 20px;
+    
+}
+
+li {
+    list-style: none;
+}
+h2 {
+    cursor: pointer;
+}
+
+/* header and navigation ends here */
+/* profile photo start here */
+.photo {
+    margin: 20px 70px;
+    border: 6px double rgb(129, 10, 50);
+    width: 415px;
+    border-radius: 10px;
+    flex: 1 12%;
+    transition: all 1s;
+    object-fit: cover;
+    cursor: pointer;
+}
+.photo:hover{
+    transform: scale(1.1);
+
+}
+/* profile photo ends here */
+
+/*contacts starts here */
+
+.reach-out h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #0d1350;
+    font-family: cursive;
+    font-size: 4em;
+    border-bottom: 5px solid rgb(129, 10, 50);
+    border-right: 5px solid rgb(129, 10, 50);
+    border-radius: 10px;
+    width: 300px;
+    font-size: 200%;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: all 1s;
+    margin-left: 90px;
+    }
+
+.reach-out h2:hover {
+    transform: scale(1.1);
+}
+.address {
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1em;
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.media {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-left : 90px;
+}
+.media img {
+    margin-left: 10px;
+    transition: all 1s;
+    border: 6px double rgb(77, 21, 129);
+    border-radius: 20px;
+    }
+.media img:hover {
+    transform: scale(1.1);
+}
+
+/* contacts ends here */
+
+/* contents stats here */
+ 
+.contents {
+    width: 75%;
+    margin: 20px;
+    display: inline-block;
+    @media screen and (max-width: 980px) {
+        .contets {
+            width: 100%;
+        }
+    
+    }
+
+}
+
+
+
+.About-me h2 {
+    font-family: cursive;
+    font-size: 4em;
+    border-bottom: 5px solid rgb(129, 10, 50);
+    border-right: 5px solid rgb(129, 10, 50);
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    font-size: 200%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.About-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #0d1350;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 500px;
+    transition: all 1s;
+    
+}
+
+.About-me:hover {
+    transform: scale(1.1);
+}
+.About-me p {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(46, 11, 51);
+    line-height: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    
+}
+
+.Education{
+    color: #0d1350;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 500px;
+    transition: all 1s;
+}
+.Education:hover {
+    transform: scale(1.1);
+}
+.Education h2 {
+    font-family: cursive;
+    font-size: 2em;
+    border-bottom: 5px solid rgb(129, 10, 50);
+    border-right: 5px solid rgb(129, 10, 50);
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    font-size: 200%;
+    font-style: italic;
+    font-weight: bold;
+}
+.Education p {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    color: rgb(46, 11, 51);
+}
+
+.work-experience {
+    color: #0d1350;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 500px;
+    transition: all 1s;
+}
+.work-experience:hover {
+    transform: scale(1.1);
+}
+.work-experience h2 {
+    font-family: cursive;
+    font-size: 2em;
+    border-bottom: 5px solid rgb(129, 10, 50);
+    border-right: 5px solid rgb(129, 10, 50);
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    font-size: 200%;
+    font-style: italic;
+    font-weight: bold;
+}
+.work-experience p{
+    text-align: center;
+    margin: 20px;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    color: rgb(46, 11, 51);
+    ima
+}
+
+.Projects h2 {
+    color: #0d1350;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 600px;
+    transition: all 1s;
+}
+.Projects:hover h2 {
+    transform: scale(1.1);
+}
+.Projects h2 {
+    font-family: cursive;
+    font-size: 2em;
+    border-bottom: 5px solid rgb(129, 10, 50);
+    border-right: 5px solid rgb(129, 10, 50);
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    font-size: 200%;
+    font-style: italic;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin: 30px;
+    
+}
+.container img {
+    margin: 20px;
+    transition: all 1s;
+    border: 6px double rgb(77, 21, 129);
+    border-radius: 20px;
+    
+}
+.container img:hover {
+    transform: scale(1.1);
+}
+
+/*contents end here */
+
+/* Media Querrie stats here*/
+
+@media screen and (max-width: 980px) {
+    /* this will be applied on any screen less than 980px */
+    header  {
+        
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+        background-size: cover;
+        background-color: rgb(168, 161, 161);
+    
+      }
+      header h1 {
+          width: 100%;
+          text-align: center;
+          background-size: cover;
+      }
+      header nav ul li {
+          text-align: left;
+          display: block;
+          
+      }
+      header nav ul li a {
+          font-size: 20px;
+          display: block;
+        
+      }
+  
+    .About-me {
+        width: 80%;
+        flex: 0 70%;
+        }
+    .Education {
+        width: 80%;
+        
+    }
+    .work-experience {
+        width: 80%;
+    }
+    .Projects {
+        width: 100%;
+        justify-content: center;
+    }
+    .Projects h2 {
+        text-align: center;
+    }
+}
+/* MEDIA QUERY ends here*/
+
+
+    
+        
