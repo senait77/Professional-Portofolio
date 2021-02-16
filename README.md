@@ -5,7 +5,7 @@
   These is a my personal profile web-page which includes  the basic information required to complete the weekely challange.
   And below is the list of items I used upon the completion of my web page.
 
-  I have learned a lot from these web page , It vissualize my understanding of advaced HTML and CSS( not to mention I spent lots of hours understanding the process as I am a bigginer)
+  I have learned a lot from these web page , it visualized my understanding of advaced HTML and CSS( not to mention I spent lots of hours understanding the process as I am a bigginer).
 
   * * NOTE: When you click to the images illustrated there , it takes you to the corresponding web pages .Dont't forget to click and check.
 
@@ -32,21 +32,20 @@
 ## Installation
 To run these project on the development enviroment:
 * open " Git bash"
-* "pwd" (tells you in which directory you are in)
-* cd to your directory 
+* "pwd" (print working directory simply tells you in which directory you are)
 * use "code ."  to open it in your text editor, in these case VS code.
-Go to your GitHub.com 
+* *  Go to your GitHub.com 
 * creat a new repository, where you can push your work remotly
 * clone it with your local computer
 * set your branch to main
 * use " git add . " to add your work
 * use " git commit -m "" " to commit chages you have made and finnally
 * use "git push origin main" to push it to your remote repository
-Now my project is locally saved in my computer and remotely saved on my GitHub.
+* * Now my project is locally saved in my computer and remotely saved on my GitHub.
 
 ## Usage 
 Screen shot 
-* ![alt text](assests/images/screenshot.png)
+* ![alt text](/assests/images/screenshot.png)
 
 ## Credits
 My web page is based and inspired by;
@@ -78,5 +77,5 @@ These project is still in developing mood, as it will be updated to a more profe
 
 
 ## Contact
- * Created by @Senait T Gerezgiher 
+ * Created by Senait T Gerezgiher 
  * Email: senutekie77@gmail.com - Feel free to reach me and I am ready to assist.
