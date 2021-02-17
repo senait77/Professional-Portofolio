@@ -331,6 +331,14 @@ h2 {
     font-size: 200%;
     font-style: italic;
     font-weight: bold;
+    margin-bottom: 70px;
+}
+.run {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: end;
+    
 }
 .container {
     display: flex;
