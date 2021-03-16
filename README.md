@@ -10,11 +10,10 @@
   * * NOTE: When you click to the images illustrated there , it takes you to the corresponding web pages .Dont't forget to click and check.
 
   Here is a link to deploy my application:
-   * https://github.com/senait77/Professional-Portofolio-automatic!
-    [GitHub Repo](https://github.com/senait77/Professional-Portofolio)
 
-    * https://senait77.github.io/Professional-Portofolio/-automatic!
-    [GitHub Deploy]( https://senait77.github.io/Professional-Portofolio/)
+   * Repo: https://github.com/senait77/Professional-Portofolio
+
+   * Deploy: https://senait77.github.io/Professional-Portofolio/
 
 
 
@@ -45,7 +44,7 @@ To run these project on the development enviroment:
 
 ## Usage 
 Screen shot 
-* ![alt text](/assests/images/screenshot.png)
+* ![My Professional web Page](/assets/images/senitey.png)
 
 ## Credits
 My web page is based and inspired by;
@@ -66,11 +65,12 @@ My web page is based and inspired by;
 * comments for index.html and  style.css specifically applied. 
 
 ## Technologies
-On the top of the basic HTML and CSS, these web-page is created with:
+* HTML
+* CSS
 * Flex Box
 * Media Query
 * Css variables
-* Lorem Ipsum Ament library version
+* Bootstrap
 
 ## Project status
 These project is still in developing mood, as it will be updated to a more professional web-page with lots of detailed illustrations that I willbe learned through-out my course. 
