@@ -10,11 +10,12 @@
     border-radius: 20px solid black;
 }
 .card-block {
-    background-color: rgb(129, 165, 219);
+    background-color: rgba(129, 165, 219);
     font-family: cursive;
     font-weight: bold;
     
 }
+
 .content-wrapper {
     background-image: url(./assets/images/frozen.jpg);
     background-size: cover;
