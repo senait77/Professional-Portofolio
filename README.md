@@ -44,7 +44,7 @@ To run these project on the development enviroment:
 
 ## Usage 
 Screen shot 
-* ![My Professional web Page](/assets/images/senitey.png)
+* ![My Professional web Page](/assets/images/newnenu.png)
 
 ## Credits
 My web page is based and inspired by;
